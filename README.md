@@ -1,4 +1,4 @@
 # BootcampSantanderProjects
 
 
-## Git hub, para primeiro projeto do bootcap Santander 2022.
+## Git hub para primeiro projeto do bootcap Santander 2022.
