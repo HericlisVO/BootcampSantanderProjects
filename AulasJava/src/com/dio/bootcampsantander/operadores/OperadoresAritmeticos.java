@@ -1,4 +1,4 @@
-package com.dio.bootcampsantander.operadoresaritmeticos;
+package com.dio.bootcampsantander.operadores;
 
 public class OperadoresAritmeticos {
 
