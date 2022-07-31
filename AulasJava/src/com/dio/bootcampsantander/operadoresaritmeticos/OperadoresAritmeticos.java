@@ -57,10 +57,53 @@ public class OperadoresAritmeticos {
 	}
 	
 	public static void atribuicao() {
+		int i = 1500;
+		short j = 15;
+		long l = 500L;
+		int k = 35;
+		float f = 3.5f;
+		double d = f;
 		
+		System.out.println("d : " + d);
+		
+		i += 5;
+		j-= 3;
+		d/=2.7d;
+		l+=3;
+		k%=2;
+		
+		System.out.println("i: "+i);
+		System.out.println("j: "+j);
+		System.out.println("d: "+d);
+		System.out.println("l: "+l);
+		System.out.println("k: "+k);
+		
+		i = k = j;
+		
+		System.out.println("k :" +k);
+		System.out.println("i: "+ i);
 	}
 	
 	public static void precedencia() {
+		int i = 10;
+		int j = 20;
+		int k = 30 ;
 		
+		int a = i++ + --j * k;
+		System.out.println("i++ + --j * k: " + a);
+		System.out.println("i: " + i);
+		
+		int b = k / --i % 3 + 1;
+		
+		System.out.println("k / --i % 3 + 1: "+ b);
+		System.out.println("i: " +i);
+		
+		int c = 2;
+		
+		c += i +=5;
+		
+		System.out.println("c += i +=5: "+ c);
+				
+			
 	}
 }
