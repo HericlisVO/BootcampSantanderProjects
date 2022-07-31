@@ -78,10 +78,14 @@ public class DeclararVariaveis {
 		System.out.println(I);
 		System.out.println(_1a);
 		System.out.println($aq);
+		
+		
+		
 		System.out.println(j);
 		System.out.println(asrm24435md);
 		System.out.println(asrm244_35md);
-		System.out.println();
+
+		
 		System.out.println(quantidadeProduto);
 		System.out.println(NUMERO_TENTATIVAS);
 		System.out.println(QUANTIDADE_OPCOES);
